@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@mixin ultra {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+@mixin light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+  
+@mixin reg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+@mixin med {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+@mixin bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
