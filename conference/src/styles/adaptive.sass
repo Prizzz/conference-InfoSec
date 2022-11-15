@@ -31,3 +31,22 @@
     zoom: 0.5
   .footer
     zoom: 0.5
+
+@media screen and (max-width: 468px)
+  .container
+    max-width: 95% !important
+  .hero
+    &-title, &-subtitle
+      zoom: 0.8
+  .footer
+    zoom: 0.6
+    .container
+      padding-top: 100px
+    .sponsors
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+      &-title
+        text-align: center
+      &-list
+        column-gap: 20px
