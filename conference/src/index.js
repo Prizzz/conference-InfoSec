@@ -1,5 +1,4 @@
 import './styles/main.sass';
-AOS.init();
 
 const accordeon = document.querySelector('.schedule');
 
